@@ -1,0 +1,41 @@
+#un{background-image:url("google.png"); background-repeat: no-repeat;}
+
+#un{margin: 0 auto; width: 600px; height: 200px;}
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteneur{
+	width: 100%;
+	height: 800px;
+}
+
+input{ width: 100%;
+		height: 35px; }
+button{width: 350px; height: 30px;}
+
+#search,#luck{float: left; margin-bottom: 0px;}
+
+header{float: right;}
+
+footer{background-color: #F2F2F2; height: 40px; line-height: 40px; bottom: 0px; margin: 0px;}
+
+#basgauche,#basdroite{float: left;}
+#basdroite{ float: right; }
+a{color: black; text-decoration: none;}
+a:hover{text-decoration: underline;}
+#de{width: 600px;}
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px; 
+}
+body{
+	margin:0px;
+}
