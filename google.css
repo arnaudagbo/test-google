@@ -101,14 +101,6 @@ img.relative {
     width: 270px;
 }
 
-span.absolute {
-    position: absolute;
-    color: #4285F6;
-    bottom: : 10px;
-    right: 0;
-    width: 0;
-}
-
 input {
     width: 100%;
     line-height: 30px;
@@ -144,13 +136,6 @@ footer {
     right: 0;
 }
 
-span {
-    position: absolute;
-    color: blue;
-    bottom: : 0;
-    right: 0;
-}
-
 .float-right {
     float: right;
     margin-right: 15px;
@@ -158,4 +143,15 @@ span {
 
 .clear {
     clear: both;
+}
+
+#ensemble {
+    visibility: hidden;
+}
+
+#clik {
+    margin-left: 50%;
+    margin-top: 10%;
+    width: 600px;
+    height: 50px;
 }
