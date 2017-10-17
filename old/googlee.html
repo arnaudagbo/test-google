@@ -5,38 +5,32 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="google.css">
 
 </head>
 
 <body>
     <header>
-        <a href="exercice.html"><button class="headerButton">Connexion</button></a>
-        <a href=""><img src="image/app.png"></a>
+        <a href=""><button class="headerButton">Connexion</button></a>
+        <a href=""><img src="app.png"></a>
         <a href="">Images</a>
         <a href="">Gmail</a>
     </header>
+    <button id="clik" type="button"> Afficher les éléments centraux </button>
 
-    <section class="hide">
-        <div class="container">
-            <div>
-                <img class="relative" src="image/logo.png">
-            </div>
-            <form action="http://www.google.fr/search" method="get" name="form">
-                <input name="q" id="keyWord" type="text">
-                <button class="button">
-						Recherche Google
-					</button>
-                <button class="button">
-						J'ai de la chance
-					</button>
-            </form>
+    <div id="ensemble">
+        <div>
+            <img class="relative" src="logo.png">
         </div>
-    </section>
-    <div class="container">
-        <button type="button" id="centralButton">
-				AFFICHER LES ÉLÉMENTS CENTRAUX
-			</button>
+        <form action="http://www.google.fr/search" method="get" name="form">
+            <input name="q" id="keyWord" type="text">
+            <button class="button">
+					Recherche Google
+				</button>
+            <button class="button">
+					J'ai de la chance
+				</button>
+        </form>
     </div>
 
     <footer>
@@ -68,7 +62,7 @@
 
     </footer>
 
-    <script type="text/javascript" src="js/google.js"></script>
+    <script type="text/javascript" src="google.js"></script>
 
 </body>
 
